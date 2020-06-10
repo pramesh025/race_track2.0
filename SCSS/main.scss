@@ -5,12 +5,7 @@
 }
 
 #track {
-    min-width: 386px;
     height: 100vh;
-    // // background-image: url("../img/road_track-01.svg");
-    // background-position: left;
-    // background-repeat: no-repeat;
-    // background-size: 100% 100%;
 }
 
 #Layer {
@@ -20,24 +15,27 @@
 }
 
 #car1 {
-    // position: absolute;
-    // left: 10%;
     animation: movement 5s linear forwards;
 }
 
 #car2 {
-    left: 27%;
     animation: movement 3s linear forwards;
 }
 
 #car3 {
-    left: 58%;
     animation: movement 6s linear forwards;
 }
 
 #car4 {
-    left: 77%;
     animation: movement 2s linear forwards;
+}
+
+#car5 {
+    animation: movement 4s linear forwards;
+}
+
+#car6 {
+    animation: movement 3s linear forwards;
 }
 
 @keyframes movement {
@@ -45,5 +43,3 @@
         transform: translateY(-100%)
     }
 }
-
-// @media only screen and(max-width:768px) and(min-width:)

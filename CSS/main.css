@@ -5,7 +5,6 @@
 }
 
 #track {
-  min-width: 386px;
   height: 100vh;
 }
 
@@ -21,21 +20,28 @@
 }
 
 #car2 {
-  left: 27%;
   -webkit-animation: movement 3s linear forwards;
           animation: movement 3s linear forwards;
 }
 
 #car3 {
-  left: 58%;
   -webkit-animation: movement 6s linear forwards;
           animation: movement 6s linear forwards;
 }
 
 #car4 {
-  left: 77%;
   -webkit-animation: movement 2s linear forwards;
           animation: movement 2s linear forwards;
+}
+
+#car5 {
+  -webkit-animation: movement 4s linear forwards;
+          animation: movement 4s linear forwards;
+}
+
+#car6 {
+  -webkit-animation: movement 3s linear forwards;
+          animation: movement 3s linear forwards;
 }
 
 @-webkit-keyframes movement {
