@@ -8,13 +8,25 @@
   height: 100vh;
 }
 
-#Layer {
-  height: 100%;
+#road {
   position: absolute;
+  height: 100%;
+  z-index: 1;
+}
+
+.car {
+  position: absolute;
+  z-index: 2;
   bottom: 0;
 }
 
+.car > * {
+  height: 100px;
+  margin-left: -15px;
+}
+
 #car1 {
+  margin-left: 40px;
   -webkit-animation: movement 5s linear forwards;
           animation: movement 5s linear forwards;
 }
@@ -46,15 +58,15 @@
 
 @-webkit-keyframes movement {
   to {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
   }
 }
 
 @keyframes movement {
   to {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -8,13 +8,24 @@
     height: 100vh;
 }
 
-#Layer {
-    height: 100%;
+#road {
     position: absolute;
+    height: 100%;
+    z-index: 1;
+}
+
+.car {
+    position: absolute;
+    z-index: 2;
+    &>* {
+        height: 100px;
+        margin-left: -15px;
+    }
     bottom: 0;
 }
 
 #car1 {
+    margin-left: 40px;
     animation: movement 5s linear forwards;
 }
 
@@ -40,6 +51,6 @@
 
 @keyframes movement {
     to {
-        transform: translateY(-100%)
+        transform: translateY(-100vh);
     }
 }
