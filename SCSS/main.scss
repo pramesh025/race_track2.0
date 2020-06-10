@@ -6,22 +6,23 @@
 
 #track {
     height: 100vh;
-}
-
-#road {
-    position: absolute;
-    height: 100%;
-    z-index: 1;
+    width: 100%;
+    background-image: url(../img/road_track-01-01-01.png);
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: 0 0;
+    animation: road 100000s linear infinite;
 }
 
 .car {
     position: absolute;
+    bottom: 0;
     z-index: 2;
+    min-width: 466px;
     &>* {
         height: 100px;
         margin-left: -15px;
     }
-    bottom: 0;
 }
 
 #car1 {
@@ -52,5 +53,14 @@
 @keyframes movement {
     to {
         transform: translateY(-100vh);
+    }
+}
+
+@keyframes road {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 10000000%;
     }
 }

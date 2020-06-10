@@ -6,44 +6,44 @@
 <g id="road">
 	<g>
 		<g>
-			<rect x="0" y="465.8" fill="#455367" width="349" height="103.9"/>
-			<rect x="313.8" y="465.8" fill="#FBFCFC" width="17.7" height="103.9"/>
-			<rect x="168.6" y="478.7" fill="#FBFCFC" width="12" height="25.9"/>
-			<rect x="17.5" y="465.8" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="6" y="465.8" fill="#455367" width="349" height="103.9"/>
+			<rect x="319.8" y="465.8" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="174.6" y="478.7" fill="#FBFCFC" width="12" height="25.9"/>
+			<rect x="23.5" y="465.8" fill="#FBFCFC" width="17.7" height="103.9"/>
 		</g>
 		<g>
-			<rect x="0" y="361.9" fill="#455367" width="349" height="103.9"/>
-			<rect x="313.8" y="361.9" fill="#FBFCFC" width="17.7" height="103.9"/>
-			<rect x="168.6" y="426.8" fill="#FBFCFC" width="12" height="25.9"/>
-			<rect x="168.6" y="374.9" fill="#FBFCFC" width="12" height="25.9"/>
-			<rect x="17.5" y="361.9" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="6" y="361.9" fill="#455367" width="349" height="103.9"/>
+			<rect x="319.8" y="361.9" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="174.6" y="426.8" fill="#FBFCFC" width="12" height="25.9"/>
+			<rect x="174.6" y="374.9" fill="#FBFCFC" width="12" height="25.9"/>
+			<rect x="23.5" y="361.9" fill="#FBFCFC" width="17.7" height="103.9"/>
 		</g>
 		<g>
-			<rect x="0" y="258" fill="#455367" width="349" height="103.9"/>
-			<rect x="313.8" y="258" fill="#FBFCFC" width="17.7" height="103.9"/>
-			<rect x="168.6" y="322.9" fill="#FBFCFC" width="12" height="25.9"/>
-			<rect x="168.6" y="271" fill="#FBFCFC" width="12" height="25.9"/>
-			<rect x="17.5" y="258" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="6" y="258" fill="#455367" width="349" height="103.9"/>
+			<rect x="319.8" y="258" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="174.6" y="322.9" fill="#FBFCFC" width="12" height="25.9"/>
+			<rect x="174.6" y="271" fill="#FBFCFC" width="12" height="25.9"/>
+			<rect x="23.5" y="258" fill="#FBFCFC" width="17.7" height="103.9"/>
 		</g>
 		<g>
-			<rect x="0" y="154.2" fill="#455367" width="349" height="103.9"/>
-			<rect x="313.8" y="154.2" fill="#FBFCFC" width="17.7" height="103.9"/>
-			<rect x="168.6" y="219.1" fill="#FBFCFC" width="12" height="25.9"/>
-			<rect x="168.6" y="167.1" fill="#FBFCFC" width="12" height="25.9"/>
-			<rect x="17.5" y="154.2" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="6" y="154.2" fill="#455367" width="349" height="103.9"/>
+			<rect x="319.8" y="154.2" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="174.6" y="219.1" fill="#FBFCFC" width="12" height="25.9"/>
+			<rect x="174.6" y="167.1" fill="#FBFCFC" width="12" height="25.9"/>
+			<rect x="23.5" y="154.2" fill="#FBFCFC" width="17.7" height="103.9"/>
 		</g>
 		<g>
-			<rect x="0" y="50.3" fill="#455367" width="349" height="103.9"/>
-			<rect x="313.8" y="50.3" fill="#FBFCFC" width="17.7" height="103.9"/>
-			<rect x="168.6" y="115.3" fill="#FBFCFC" width="12" height="25.9"/>
-			<rect x="168.6" y="63.4" fill="#FBFCFC" width="12" height="25.9"/>
-			<rect x="17.5" y="50.3" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="6" y="50.3" fill="#455367" width="349" height="103.9"/>
+			<rect x="319.8" y="50.3" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="174.6" y="115.3" fill="#FBFCFC" width="12" height="25.9"/>
+			<rect x="174.6" y="63.4" fill="#FBFCFC" width="12" height="25.9"/>
+			<rect x="23.5" y="50.3" fill="#FBFCFC" width="17.7" height="103.9"/>
 		</g>
 		<g>
-			<rect x="0" y="-53.5" fill="#455367" width="349" height="103.9"/>
-			<rect x="313.8" y="-53.5" fill="#FBFCFC" width="17.7" height="103.9"/>
-			<rect x="168.6" y="11.4" fill="#FBFCFC" width="12" height="25.9"/>
-			<rect x="17.5" y="-53.5" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="6" y="-53.5" fill="#455367" width="349" height="103.9"/>
+			<rect x="319.8" y="-53.5" fill="#FBFCFC" width="17.7" height="103.9"/>
+			<rect x="174.6" y="11.4" fill="#FBFCFC" width="12" height="25.9"/>
+			<rect x="23.5" y="-53.5" fill="#FBFCFC" width="17.7" height="103.9"/>
 		</g>
 	</g>
 </g>
