@@ -1,0 +1,44 @@
+#container {
+    height: 100vh;
+    width: 100%;
+}
+
+#track {
+    position: relative;
+    height: 100vh;
+    background-image: url("../img/road_track-01.svg");
+    background-position: 10% 0;
+    background-repeat: no-repeat;
+}
+
+.car {
+    height: 100px;
+    position: absolute;
+    bottom: 5px;
+}
+
+#car1 {
+    left: 8%;
+    animation: movement 5s linear forwards;
+}
+
+#car2 {
+    left: 22%;
+    animation: movement 3s linear forwards;
+}
+
+#car3 {
+    left: 42%;
+    animation: movement 6s linear forwards;
+}
+
+#car4 {
+    left: 54%;
+    animation: movement 8s linear forwards;
+}
+
+@keyframes movement {
+    to {
+        bottom: 100%;
+    }
+}
