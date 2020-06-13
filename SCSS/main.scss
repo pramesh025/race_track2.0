@@ -1,24 +1,26 @@
 #container {
     height: 100vh;
     width: 100%;
-    overflow: hidden;
+    margin: 0;
+    overflow: auto;
 }
 
 #track {
     height: 100vh;
     width: 100%;
+    min-width: 320px;
     background-image: url(../img/road_track-01-01-01.png);
     background-size: 100% auto;
     background-repeat: repeat-y;
     background-position: 0 0;
-    animation: road 100000s linear infinite;
+    animation: road 400000s linear infinite;
 }
 
 .car {
     position: absolute;
     bottom: 0;
     z-index: 2;
-    min-width: 466px;
+    min-width: 321px;
     &>* {
         height: 100px;
         margin-left: -15px;
@@ -61,6 +63,54 @@
         background-position: 0 0;
     }
     to {
-        background-position: 0 10000000%;
+        background-position: 0 -10000000vh;
+    }
+}
+
+@media only screen and (max-width:850px) and (min-width:768px) {
+    .car {
+        &>* {
+            height: 90px;
+            margin-left: -15px;
+        }
+    }
+    #car1 {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width:631px) {
+    .car {
+        &>* {
+            height: 110px;
+            margin-left: 0;
+        }
+    }
+    #car1 {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width:630px) and (min-width:565px) {
+    .car {
+        &>* {
+            height: 100px;
+            margin-left: 0;
+        }
+    }
+    #car1 {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:455px) {
+    .car {
+        &>* {
+            height: 80px;
+            margin-left: -15px;
+        }
+    }
+    #car1 {
+        margin-left: 15px;
     }
 }
