@@ -18,52 +18,78 @@
 
 .car {
     position: absolute;
-    bottom: 0;
+    bottom: 6vh;
     z-index: 2;
     min-width: 321px;
-    &>* {
+    display: flex;
+    &>*{
+        display: inline-block;
+    }
+    &>*>* {
         height: 100px;
-        margin-left: -15px;
+        margin-left: 0px;
     }
 }
 
-#car1 {
+.player_name{
+    position: relative;
+    height: 4vh;
+    width: auto;
+    padding: 2px;
+    margin: 1px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+}
+.player_name::before{
+    content: " ";
+    position: absolute;
+    right: 40%;
+    top: -13%;
+    border-top: none;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid  rgb(26, 25, 25);
+}
+#car1_container {
     margin-left: 40px;
     animation: movement 5s linear forwards;
 }
 
-#car2 {
+#car2_container {
     animation: movement 3s linear forwards;
 }
 
-#car3 {
+#car3_container {
     animation: movement 6s linear forwards;
 }
 
-#car4 {
+#car4_container {
     animation: movement 2s linear forwards;
 }
 
-#car5 {
+#car5_container {
     animation: movement 4s linear forwards;
 }
 
-#car6 {
+#car6_container {
     animation: movement 3s linear forwards;
 }
 
-@keyframes movement {
-    to {
-        transform: translateY(-100vh);
-    }
-}
+// @keyframes movement {
+//     to {
+//         transform: translateY(-100vh);
+//     }
+// }
 
 @keyframes road {
     from {
         background-position: 0 0;
     }
     to {
-        background-position: 0 -10000000vh;
+        background-position: 0 10000000vh;
     }
 }
 
@@ -74,7 +100,7 @@
             margin-left: -15px;
         }
     }
-    #car1 {
+    #car1_container  {
         margin-left: 20px;
     }
 }
@@ -86,7 +112,7 @@
             margin-left: 0;
         }
     }
-    #car1 {
+    #car1_container  {
         margin-left: 80px;
     }
 }
@@ -98,7 +124,7 @@
             margin-left: 0;
         }
     }
-    #car1 {
+    #car1_container  {
         margin-left: 50px;
     }
 }
@@ -110,7 +136,7 @@
             margin-left: -15px;
         }
     }
-    #car1 {
+    #car1_container {
         margin-left: 15px;
     }
 }

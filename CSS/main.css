@@ -19,59 +19,76 @@
 
 .car {
   position: absolute;
-  bottom: 0;
+  bottom: 6vh;
   z-index: 2;
   min-width: 321px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .car > * {
-  height: 100px;
-  margin-left: -15px;
+  display: inline-block;
 }
 
-#car1 {
+.car > * > * {
+  height: 100px;
+  margin-left: 0px;
+}
+
+.player_name {
+  position: relative;
+  height: 4vh;
+  width: auto;
+  padding: 2px;
+  margin: 1px;
+  background-color: #1a1919;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.player_name::before {
+  content: " ";
+  position: absolute;
+  right: 40%;
+  top: -13%;
+  border-top: none;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid #1a1919;
+}
+
+#car1_container {
   margin-left: 40px;
   -webkit-animation: movement 5s linear forwards;
           animation: movement 5s linear forwards;
 }
 
-#car2 {
+#car2_container {
   -webkit-animation: movement 3s linear forwards;
           animation: movement 3s linear forwards;
 }
 
-#car3 {
+#car3_container {
   -webkit-animation: movement 6s linear forwards;
           animation: movement 6s linear forwards;
 }
 
-#car4 {
+#car4_container {
   -webkit-animation: movement 2s linear forwards;
           animation: movement 2s linear forwards;
 }
 
-#car5 {
+#car5_container {
   -webkit-animation: movement 4s linear forwards;
           animation: movement 4s linear forwards;
 }
 
-#car6 {
+#car6_container {
   -webkit-animation: movement 3s linear forwards;
           animation: movement 3s linear forwards;
-}
-
-@-webkit-keyframes movement {
-  to {
-    -webkit-transform: translateY(-100vh);
-            transform: translateY(-100vh);
-  }
-}
-
-@keyframes movement {
-  to {
-    -webkit-transform: translateY(-100vh);
-            transform: translateY(-100vh);
-  }
 }
 
 @-webkit-keyframes road {
@@ -79,7 +96,7 @@
     background-position: 0 0;
   }
   to {
-    background-position: 0 -10000000vh;
+    background-position: 0 10000000vh;
   }
 }
 
@@ -88,7 +105,7 @@
     background-position: 0 0;
   }
   to {
-    background-position: 0 -10000000vh;
+    background-position: 0 10000000vh;
   }
 }
 
@@ -97,7 +114,7 @@
     height: 90px;
     margin-left: -15px;
   }
-  #car1 {
+  #car1_container {
     margin-left: 20px;
   }
 }
@@ -107,7 +124,7 @@
     height: 110px;
     margin-left: 0;
   }
-  #car1 {
+  #car1_container {
     margin-left: 80px;
   }
 }
@@ -117,7 +134,7 @@
     height: 100px;
     margin-left: 0;
   }
-  #car1 {
+  #car1_container {
     margin-left: 50px;
   }
 }
@@ -127,7 +144,7 @@
     height: 80px;
     margin-left: -15px;
   }
-  #car1 {
+  #car1_container {
     margin-left: 15px;
   }
 }
